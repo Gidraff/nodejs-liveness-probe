@@ -1,0 +1,23 @@
+{
+	"name": "nodejs-liveness-probe",
+	"version": "1.0.0",
+	"description": "Implements a solution for application downtimes. This will help k8s know when is necessary to restart the pods running the application.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Gidraff/nodejs-liveness-probe.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Gidraff/nodejs-liveness-probe/issues"
+	},
+	"homepage": "https://github.com/Gidraff/nodejs-liveness-probe#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
